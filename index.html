@@ -3,15 +3,21 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,user-scalable=no, initial-scale=1">
-    <title>光束飞过</title>
+    <title>PigCms</title>
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
     <div class="wrap">
       <div class="logo"></div>
       <div class="wz"></div>
-      <div class="light"></div>
-      <a href="javascript:;" class="menu"></a>
+      <div class="light" id="light"></div>
+      <a href="javascript:;" class="menu"></a>     
     </div>
+    <script type="text/javascript">
+        window.onload = function(){
+          var oLight = document.getElementById('light');
+          oLight.className += ' run';
+        }
+    </script>
   </body>
 </html>
