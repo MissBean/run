@@ -88,13 +88,16 @@ body,html{height: 100%;}
 }
 .light {
   position: absolute;
-  width:6.40rem;   
+  width:6.4rem;   
   height:4.76rem; 
   background-repeat: no-repeat;
   background-image: url(./light.jpg);
   background-size: cover;
   top:2rem;
   background: url(light.png) ;    
+  
+}
+.run {
   -webkit-animation:run 2.5s steps(1, start); 
   -moz-animation:run 2.5s steps(1, start); 
   -ms-animation:run 2.5s steps(1, start); 
