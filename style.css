@@ -92,7 +92,7 @@ body,html{height: 100%;}
 .light {
   position: absolute;
   width:6.4rem;   
-  height:4.76rem; 
+  height:476px; 
   background-repeat: no-repeat;
   background-image: url(./light.jpg);
   background-size: cover;
