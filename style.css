@@ -1,0 +1,176 @@
+body,div,a,img{margin: 0;padding: 0;}
+body,html{height: 100%;}
+@media screen and (min-width:320px){
+  html{font-size:50;}
+  body{font-size:12px;}
+}
+@media screen and (min-width:360px){
+  html{font-size:56.25px;}
+  body{font-size:13.5px;}
+}
+@media screen and (min-width:375px){
+  html{font-size:58.593px;}
+  body{font-size:14.0625px;}
+}
+@media screen and (min-width:384px){
+  html{font-size:60px;}
+  body{font-size:14.4px;}
+}
+@media screen and (min-width:400px){
+  html{font-size:62.5px;}
+  body{font-size:15px;}
+}
+@media screen and (min-width:414px){
+  html{font-size:64.6875px;}
+  body{font-size:15.525px;}
+}
+@media screen and (min-width:424px){
+  html{font-size:66.25px;}
+  body{font-size:15.9px;}
+}
+@media screen and (min-width:480px){
+  html{font-size:75px;}
+  body{font-size:18px;}
+}
+@media screen and (min-width:540px){
+  html{font-size:84.375px;}
+  body{font-size:20.25px;}
+}
+@media screen and (min-width:640px){
+  html{font-size:100px;}
+  body{font-size:24px;}
+}
+@media screen and (min-width:750px){
+  html{font-size:117.1875px;}
+  body{font-size:28.125px;}
+}
+
+.wrap{
+  position: relative;
+  height: 100%;
+  background: url(./bg.jpg) no-repeat;
+  /*background-size: cover;*/
+}
+.logo {
+  position: absolute;
+  width: .71rem;
+  height: .71rem;
+  background: url(./logo.png) no-repeat;
+  background-size: cover;
+  left: .51rem;
+  top: .51rem;
+}
+.wz {
+  position: absolute;
+  width: 5.34rem;
+  height: 2.49rem;
+  background: url(./wz.png) no-repeat;
+  background-size: cover;
+  top: 2.58rem;
+  left: 50%;
+  margin-left: -2.67rem;
+  z-index: 22;
+}
+.menu {
+  position: absolute;
+  left: 50%;
+  margin-left: -0.58rem;
+  width: 1.16rem;
+  height: .61rem;
+  background: url(./b-icon.png) no-repeat;
+  background-size: cover;
+  bottom: -.61rem;
+  -webkit-animation: toTop 2s ease 3s forwards;
+  -moz-animation: toTop 2s ease 3s forwards;
+  -ms-animation: toTop 2s ease 3s forwards;
+  -o-animation: toTop 2s ease 3s forwards;
+  animation: toTop 2s ease 3s forwards;
+}
+.light {
+  position: absolute;
+  width:640px;   
+  height:476px; 
+  background-repeat: no-repeat;
+  background-image: url(./light.jpg);
+  background-size: cover;
+  top:2rem;
+  background: url(light.png) ;    
+  -webkit-animation:run 2.5s steps(1, start); 
+  -moz-animation:run 2.5s steps(1, start); 
+  -ms-animation:run 2.5s steps(1, start); 
+  -o-animation:run 2.5s steps(1, start); 
+  animation:run 2.5s steps(1, start); 
+}
+@-webkit-keyframes toTop {
+  0% {bottom: -.61rem;}
+  100% {bottom: 0;}
+}
+@-moz-keyframes toTop {
+  0% {bottom: -.61rem;}
+  100% {bottom: 0;}
+}
+@-ms-keyframes toTop {
+  0% {bottom: -.61rem;}
+  100% {bottom: 0;}
+}
+@-o-keyframes toTop {
+  0% {bottom: -.61rem;}
+  100% {bottom: 0;}
+}
+@keyframes toTop {
+  0% {bottom: -.61rem;}
+  100% {bottom: 0;}
+}
+
+/*@keyframes run{   
+  0%, 6%{  background-position: 0 0;  }   
+  12.5%, 20%{  background-position: -640px 0;  }   
+  25%, 31%{  background-position: -1280px 0 ;  }   
+  37.5%, 44%{  background-position: -1920px 0 ;  }   
+  50%, 56%{  background-position: -2560px 0 ;  }  
+  62.5%, 70%{  background-position: -3200px 0 ;  }   
+  75%, 81%{  background-position: -3840px 0 ;  }   
+  87.5%, 100%{  background-position: -4480px 0 ;  } 
+}   */
+@-webkit-keyframes run{   
+  0%, 6%{  background-position: 0 0;  }   
+  25%, 40%{  background-position: -640px 0;  }   
+  50%, 62%{  background-position: -1280px 0 ;  }   
+  75%, 81%{  background-position: -1920px 0 ;  }   
+  87.5%, 100%{  background-position: -2560px 0 ;  }    
+} 
+@-moz-keyframes run{   
+  0%, 6%{  background-position: 0 0;  }   
+  25%, 40%{  background-position: -640px 0;  }   
+  50%, 62%{  background-position: -1280px 0 ;  }   
+  75%, 81%{  background-position: -1920px 0 ;  }   
+  87.5%, 100%{  background-position: -2560px 0 ;  }    
+}
+@-ms-keyframes run{   
+  0%, 6%{  background-position: 0 0;  }   
+  25%, 40%{  background-position: -640px 0;  }   
+  50%, 62%{  background-position: -1280px 0 ;  }   
+  75%, 81%{  background-position: -1920px 0 ;  }   
+  87.5%, 100%{  background-position: -2560px 0 ;  }    
+}
+@-o-keyframes run{   
+  0%, 6%{  background-position: 0 0;  }   
+  25%, 40%{  background-position: -640px 0;  }   
+  50%, 62%{  background-position: -1280px 0 ;  }   
+  75%, 81%{  background-position: -1920px 0 ;  }   
+  87.5%, 100%{  background-position: -2560px 0 ;  }    
+}
+@keyframes run{   
+  0%, 6%{  background-position: 0 0;  }   
+  25%, 40%{  background-position: -640px 0;  }   
+  50%, 62%{  background-position: -1280px 0 ;  }   
+  75%, 81%{  background-position: -1920px 0 ;  }   
+  87.5%, 100%{  background-position: -2560px 0 ;  }    
+}
+
+/*@-webkit-keyframes light {
+  0% {background: red;}
+25% {background: yellow;}
+50% {background: blue;}
+100% {background: green;}
+}*/
